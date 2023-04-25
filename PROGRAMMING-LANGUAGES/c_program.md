@@ -13,4 +13,4 @@ __User requirements__ :arrow_right: __Problem analysis__ :arrow_right: __Determi
 *Designing* is the first step for obtaining solution of a given problem. The purpose of designing is to represent solution for a system. It is difficult to design a large system because the complexity of system cannot be represented easily. Thus various methods have been evolved for designing.
 
 1. Top-Down Design
-_ _
+***
