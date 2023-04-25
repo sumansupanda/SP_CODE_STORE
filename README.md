@@ -6,7 +6,7 @@ Here i have share my coding journey where i am going through different types of 
 
 The *c programming language* is a `genearl-purpose`, operating `system-agnostic` and `procedural language` that supports structured programming and provides `low-level` access to the system memory.
 
-Please refer to this :point_right: [LINK](https://github.com/sumansupanda/SP_CODE_STORE/blob/main/PROGRAMMING-LANGUAGES/c_program.md "link to explore") for further exploration.
+Please refer to this :point_right: [LINK](https://github.com/sumansupanda/SP_CODE_STORE/blob/main/PROGRAMMING-LANGUAGES/C_Program.md "link to explore") for further exploration.
 
 ## PYTHON PROGRAMMING LANGUAGE :open_book:
 
