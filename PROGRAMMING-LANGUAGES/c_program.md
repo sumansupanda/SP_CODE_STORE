@@ -7,3 +7,10 @@ The first step is to understand the *user requirments*. *Problem analysis* arise
 > **Process of program development.....**
 
 __User requirements__ :arrow_right: __Problem analysis__ :arrow_right: __Determine Input and Output__ :arrow_right: __Designing algorithm__ :arrow_right: __Program coding__ :arrow_right: __Testing and Debugging the program__ :arrow_right: __Program Documentation__.
+
+## Design Methods
+
+*Designing* is the first step for obtaining solution of a given problem. The purpose of designing is to represent solution for a system. It is difficult to design a large system because the complexity of system cannot be represented easily. Thus various methods have been evolved for designing.
+
+1. Top-Down Design
+_
