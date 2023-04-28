@@ -69,3 +69,42 @@ The C language was developed by `Dennis Ritchie` in `1970s` at `AT&T Bell Labora
 The C language is derived from the `B language`, which was written by `Ken Thompson` at `AT&T Bell Laboratories`. The B language was adopted from a language called `BCPL (Basic Combined Programming Language)`, which was developed by `Martin Richards` at `Cambridge University`. 
 
 In 1982, a committee was formed by `ANSI (American National Standards Institute)` to standardize the C language. Finally in 1989, the standard for C language was introduced known as `ANSI C`. Generally most of the modern compilers conform to this standard.
+
+## Characteristics Of C
+
+C is the `middle level language`. It has the simplicity of a *high level language as well as the power of a low level language*. This aspect of C makes it suitable for writing both *application and system programs*. Thus it is an `excellent`, `efficient` and `general-purpose` language for most of the applications such as `mathematical`, `scientific`, `business` and `system software applications`. 
+
+C is small language, consisting of only 32 Engllish words known as `Keywords`. The power of C is augmented by the library functions provided with it. Moreover, the language is extendible since it allows the users to add their library functions to the library.
+
+## Structure Of C Program
+
+A C program is a collection of one or more functions. Every function is a collection of statements and performs some specific task. The general structure of C program is-
+
+```
+Comments
+Preprocessor directives
+Global variables
+int main(void)
+{
+    local variables
+    statements
+    .........
+    .........
+    return 0;
+}
+func1 ()
+{
+    local variables
+    statements
+    .........
+    .........
+}
+func2 ()
+{
+    local variables
+    statements
+    .........
+    .........
+}
+
+```
