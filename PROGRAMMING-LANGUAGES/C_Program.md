@@ -45,3 +45,27 @@ The difficulties faced in machine level language were reduced to some extent by 
 2. High-Level Languages
 
 *High-level languages* are designed keeping in mind the features of portability i.e these languages are machine independent. These are English like languages, so it is easy to write and understand the program of high-level language. While programming in a high level language, the programmer is not concerned with the low level details, and so the whole attenton can be paid to the logic of the problem being solved. For translating a higher level language program into machine language, `compiler` or `interpreter` is used. Every language has its own compiler or interpreter. Some languages in this category are- `FORTRAN`, `COBOL`, `BASIC`, `Pascal` etc.
+
+## Translators 
+
+We know that computers can understand only machine level language, which is in binary 1 or 0. The code written in any high-level or low-level language should be translated into machine level language and `translator` are used for this purpose. These translators are just computer programs, which accept a program written in high-level or low-level language and produce an equivalent machine language program an output. The three types of translators used are-
+
++ Assembler
++ Compiler
++ Interpreter
+
+*Assembler* is used for converting the code of low-level language(assembly language) into machine level language.
+
+*Compilers* and *interpreters* are used to convert the code of high-level language into machine language. The high level program is known as `source program` and the corresponding machine language program is known as `object program`. Although both compilers and interpreters perform the same task, there is a difference in their working.
+
+A compiler searches all the errors of program and list them. If the program is error free then it converts the code of program into machine code and then the program can be executed by separate commands. An interpreter checks the errors of program statement by statement. After checking one statement, it converts that statement into machine code and then executes that statement. This process continues until the last statement of program or an erroneous statement occurs.
+
+## History Of C
+
+In earlier days, every language was designed for some specific purpose. For example `FORTRAN (Formula Translator)` was used for scientific and mathematical applications, `COBOL ( Common Business Oriented Language)` was used for business applications. 
+
+The C language was developed by `Dennis Ritchie` in `1970s` at `AT&T Bell Laboratories`. *Murray Hill*, *New jersey*, initially it was designed for programming in the operating system called `UNIX`. After the advent of C, the whole UNIX operating system was rewritten usign it. Now almost the entire UNIX operating system and the tools supplied with it including the C compiler itself are written in C.
+
+The C language is derived from the `B language`, which was written by `Ken Thompson` at `AT&T Bell Laboratories`. The B language was adopted from a language called `BCPL (Basic Combined Programming Language)`, which was developed by `Martin Richards` at `Cambridge University`. 
+
+In 1982, a committee was formed by `ANSI (American National Standards Institute)` to standardize the C language. Finally in 1989, the standard for C language was introduced known as `ANSI C`. Generally most of the modern compilers conform to this standard.
