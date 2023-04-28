@@ -32,4 +32,5 @@ Before learning any language, it is important to know about the various types of
 
 The low level languages can further divided into two types-
 
-a. Machine level language
++ Machine Level Language
+
