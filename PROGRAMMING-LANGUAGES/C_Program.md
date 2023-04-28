@@ -25,3 +25,11 @@ Bottom-Up design method is the reverse of Top-Down approach. It starts from the 
 It is better to divide a large system into modules. In terms of programming, module is logically a well-defined part of program. Each module is a separate part of the program. It is easy to modify a program written with modular approach because changes in one module don't affect other modules of program. It is also easy to check bugs in the program in module level programming.
 
 ## Programming Languages
+
+Before learning any language, it is important to know about the various types of languages and their features. The programming languages can be classified into two types-
+
+1. Low Level Languages
+
+The low level languages can further divided into two types-
+
+a. Machine level language
