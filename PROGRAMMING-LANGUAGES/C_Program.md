@@ -121,6 +121,20 @@ There are different phases through which our program passes before being transfo
 
 The following figure shows these phases-
 
-// Hey
-source code
-    ||
+    //
+                            source code
+                            :arrow_down:
+                            **Preprocessor**
+                            :arrow_down:
+                            expanded code
+                            :arrow_down:
+                            **Compiler**
+                            :arrow_down:
+                            assembly code
+                            :arrow_down:
+                            **Assembler**
+                            :arrow_down:
+                            object code
+    other object            :arrow_down:              
+        files :arrow_right: **Linker**  :arrow_left:    libraries
+                            executable code
