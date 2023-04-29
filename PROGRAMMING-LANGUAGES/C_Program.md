@@ -123,17 +123,18 @@ The following figure shows these phases-
 
                             source code
                                 ||
-                            **Preprocessor**
-                            :arrow_down:
+                            Preprocessor
+                                ||     
                             expanded code
-                            :arrow_down:
-                            **Compiler**
-                            :arrow_down:
+                                |                   
+                             Compiler
+                                ||     
                             assembly code
-                            :arrow_down:
-                            **Assembler**
-                            :arrow_down:
+                                ||
+                             Assembler
+                                ||
                             object code
-    other object            :arrow_down:              
-        files :arrow_right: **Linker**  :arrow_left:    libraries
+    other object                ||               
+        files    =====        Linker    =====  libraries
+                                ||
                             executable code
