@@ -121,9 +121,8 @@ There are different phases through which our program passes before being transfo
 
 The following figure shows these phases-
 
-    //
                             source code
-                            :arrow_down:
+                                ||
                             **Preprocessor**
                             :arrow_down:
                             expanded code
