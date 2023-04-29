@@ -114,3 +114,13 @@ func2 ()
 Preprocessor directives are processed through preprocessor before the C source code passes through compiler. The commonly used preprocessor directives are `#include` and `#define`. #include is used for including header files. #define is used to define symbolic constants and macros.
 
 Every C program has one or more functions. If a program has only one functios then it must be `main()`. Execution of every C program starts with main() functions. It has two parts, declarations of local variables and statements. Statements in the main() functions executed one by one. The statement `return 0;` at the end of main() means that the functions has terminated successfully. Other functions are user-defined functions, which also have local variables and C statements. They can be defined before or after main(). It may be possible that some variables have to be used in many functions, so it is necessary to declare them globally. These variables are called *global variables*.
+
+## Compilation and Execution Of C Program
+
+There are different phases through which our program passes before being transformed into an executable form.
+
+The following figure shows these phases-
+
+//
+source code
+    ||
