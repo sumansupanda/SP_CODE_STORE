@@ -154,3 +154,25 @@ This assembly language code is converted to object code by the system's assemble
 > Linker
 
 Generally all programs written in C, use library functions. Library functions are precompiled and their object code is stored in library files with `.lib (or '.a')` extension. The linker combines this object code of the library functions with the object code of the program. Our program may also contain references to functions that are defined in other files. The linker links the object code of these files also to our program. So the job of the linker is to combine the object code of our program with the object code of other files and object code of library functions. The output of the linker is an executable file. In DOS the executable file has same name as that of source code file and has extension `.exe` and in UNIX the executable file is named as a `a.out` or the name of output with `-o` option.
+
+## Environment For C
+
+The steps involved in developing a C program are-
+
+1. Program Creation
+2. Program Compilation
+3. Program Execution
+
++ Unix/Linux Environment
+
+Generally a command line C compiler is provided with the Unix/Linux operating system. This compller is named as `cc or gcc`.
+
+- Program Creation
+
+In unix environment file can be created with vi editor as-
+```
+
+$ vi filename.c
+
+```
+Here `$` is the unix prompt. The file can be saved by pressing `ESC and SHIFT+zz`.
