@@ -163,16 +163,99 @@ The steps involved in developing a C program are-
 2. Program Compilation
 3. Program Execution
 
-### Unix/Linux Environment
+### UNIX/LINUX Environment
 
 Generally a command line C compiler is provided with the Unix/Linux operating system. This compller is named as `cc or gcc`.
 
 + Program Creation
 
 In unix environment file can be created with vi editor as-
+
 ```
 $ vi filename.c
 ```
+
 Here `$` is the unix prompt. The file can be saved by pressing `ESC and SHIFT+zz`.
 
 + Program Compilation
+
+After creation of C program, it can be compiled as-
+
+```
+$ cc filename.c
+```
+
+If the program has mathematical function then it is compiled as-
+
+```
+$ cc filename.c -lm
+```
+
+After compilation the executable code is stored in the file `a.out`.
+
+Another way of compilation providing executable file name is-
+
+```
+$ cc filename.c -o executablename
+```
+
+After compilation the executable code is stored in the file executablename.
+
++ Program Execution
+
+After compilation of program, it can be executed as-
+
+```
+$ a.out
+```
+
+If compiled with `-o` option then it can be executed as-
+
+```
+$ executablename
+```
+
+### MS-DOS Environment
+
+In MS-DOS environment creation, compilation and execution can be done using command line or `IDE (Integrated Development Environment)`.
+
+> Command Line
+
+In `Borland C`, the command line compiler is `bcc.exe` and iin `Turbo C` the command line compiler is `tcc.exe`.
+
++ Program Creation
+
+The program file can be created using any editor and should be saved with `.c` extension.
+
++ Program Compilation
+
+After saving the file, C program can be compiled at DOS prompt by writing-
+
+```
+C:\> tcc filename (in Turbo C)
+C:\> bcc filename (in Borland C)
+```
+
++ Program Execution
+
+After compilation of C program, the executable file `filename.exe` is created. It s executed at DOS prompt by writing-
+
+```
+C:\> filename
+```
+
+### Integrated Development Environment
+
+All these steps can be performed in an IDE using menu option or shortcut keys. In Borland C the program bc.exe is the IDE and in Turbo C the program tc.exe is the IDE. So we can open the IDE by typing bc or tc at the command prompt.
+
++ Program Creation
+
+A new file can be created from menu option `New`. The file can be saved by menu option `Save`. If the file is unnamed then it is saved by menu option `Save` as. An existing file can be opened from the menu option `Open`.
+
++ Program Compilation
+
+The file can be compiled by the menu option `Compile (Alt+F9)`.
+
++ Program Execution
+
+The file can be executed by menu option `Run (Ctrl+F9)`. The output appears in the output window that can be seen using the `Keys Alt+F5`.
