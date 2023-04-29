@@ -163,16 +163,16 @@ The steps involved in developing a C program are-
 2. Program Compilation
 3. Program Execution
 
-+ Unix/Linux Environment
+### Unix/Linux Environment
 
 Generally a command line C compiler is provided with the Unix/Linux operating system. This compller is named as `cc or gcc`.
 
-- Program Creation
++ Program Creation
 
 In unix environment file can be created with vi editor as-
 ```
-
 $ vi filename.c
-
 ```
 Here `$` is the unix prompt. The file can be saved by pressing `ESC and SHIFT+zz`.
+
++ Program Compilation
