@@ -138,3 +138,19 @@ The following figure shows these phases-
         files    =====        Linker    =====  libraries
                                 ||
                             executable code
+
+> Preprocessor
+
+The source code is the code that we write using any text editor and the source code file is given an extension `.c`. This source code is firstly passed through the preprocessor. The preprocessor expands this code and passes it to the compiler.
+
+> Compiler
+
+The extended code is passed to the compiler. The compiler converts this code into the machine's assembly language code.
+
+> Assembler
+
+This assembly language code is converted to object code by the system's assembler. This name of the object file is same as that of source file. In DOS the object file has extension `.obj` and in UNIX the extension is `.o`.
+
+> Linker
+
+Generally all programs written in C, use library functions. Library functions are precompiled and their object code is stored in library files with `.lib (or '.a')` extension. The linker combines this object code of the library functions with the object code of the program. Our program may also contain references to functions that are defined in other files. The linker links the object code of these files also to our program. So the job of the linker is to combine the object code of our program with the object code of other files and object code of library functions. The output of the linker is an executable file. In DOS the executable file has same name as that of source code file and has extension `.exe` and in UNIX the executable file is named as a `a.out` or the name of output with `-o` option.
