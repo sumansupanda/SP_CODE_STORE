@@ -163,7 +163,7 @@ The steps involved in developing a C program are-
 2. Program Compilation
 3. Program Execution
 
-### UNIX/LINUX Environment
+### UNIX/LINUX Environment......
 
 Generally a command line C compiler is provided with the Unix/Linux operating system. This compller is named as `cc or gcc`.
 
@@ -215,7 +215,7 @@ If compiled with `-o` option then it can be executed as-
 $ executablename
 ```
 
-### MS-DOS Environment
+### MS-DOS Environment.......
 
 In MS-DOS environment creation, compilation and execution can be done using command line or `IDE (Integrated Development Environment)`.
 
@@ -244,7 +244,7 @@ After compilation of C program, the executable file `filename.exe` is created. I
 C:\> filename
 ```
 
-### Integrated Development Environment
+### Integrated Development Environment.........
 
 All these steps can be performed in an IDE using menu option or shortcut keys. In Borland C the program bc.exe is the IDE and in Turbo C the program tc.exe is the IDE. So we can open the IDE by typing bc or tc at the command prompt.
 
