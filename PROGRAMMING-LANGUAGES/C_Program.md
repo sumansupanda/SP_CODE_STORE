@@ -279,4 +279,5 @@ a, b, c ............... z
 + Graphic Characters
 
 | Character | Name |
+| --- | --- |
 | + | Plus Sign |
