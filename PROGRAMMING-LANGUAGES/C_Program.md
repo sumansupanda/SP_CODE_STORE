@@ -263,3 +263,8 @@ The file can be executed by menu option `Run (Ctrl+F9)`. The output appears in t
 # ELEMENTS OF C.
 
 Every language has some basic elements and grammatical rules. Before programming in C, it is most to know the basic elements of the language. These basic elements are `character set`, `variables`, `datatypes`, `constants`, `keywords`, `variable declaration`, `expressions`, `statements`. All are these are used to construct a C program.
+
+## C Character Set
+
+The characters that are used in C programs are given below....
+Uppercase
