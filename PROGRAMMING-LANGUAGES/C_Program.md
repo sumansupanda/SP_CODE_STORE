@@ -277,5 +277,7 @@ a, b, c ............... z
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 + Graphic Characters
-|  Character  |  Name  |
-|  ---  |  ---  |
+| Character | Name |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
