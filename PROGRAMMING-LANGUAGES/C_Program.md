@@ -259,3 +259,4 @@ The file can be compiled by the menu option `Compile (Alt+F9)`.
 + Program Execution
 
 The file can be executed by menu option `Run (Ctrl+F9)`. The output appears in the output window that can be seen using the `Keys Alt+F5`.
+
