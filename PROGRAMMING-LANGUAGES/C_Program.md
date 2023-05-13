@@ -260,3 +260,6 @@ The file can be compiled by the menu option `Compile (Alt+F9)`.
 
 The file can be executed by menu option `Run (Ctrl+F9)`. The output appears in the output window that can be seen using the `Keys Alt+F5`.
 
+# ELEMENTS OF C.
+
+Every language has some basic elements and grammatical rules. Before programming in C, it is most to know the basic elements of the language. These basic elements are
