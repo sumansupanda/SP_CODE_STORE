@@ -309,3 +309,15 @@ Alert, Backspace, Carriage Return, Null Character.
 Some characters such as `newline`, `tab`, `backspace` can not be displayed like other normal characters. C supports the combination of backslash (\) and some characters from the C character for representing these characters in our C programs. These character combinations are known as escape sequences and are represented by two characters. The first character is `"\"` and second character is from the `C character set`.
 
 Some escape sequences are given below....
+
+| Escape Sequence | Meaning | ASCII Value | Purpose |
+| :---: | :---: | :---: | :---: |
+| \b | Backspace | 008 | Moves the cursor to the previous position of the current line |
+| \a | Alert | 007 | Produce an audible or visible alert |
+| \r | Carriage Return | 013 | Moves the cursor to beginning of the current line |
+| \n | Newline | 010 | Moves the cursor to beginning of the next line |
+| \f | Form Feed | 012 | Moves the cursor to the initial position of the next logical page |
+| \o | Null Character | 000 | Used for termination of character string |
+| \v | Vertical Tab | 011 | Moves the cursor to next vertical tab position |
+| \t | Horizontal Tab | 009 | Moves the cursor to next horizontal tab position |
+| \\ | Backslash | 092 | Presents a character with backslash (\) |
