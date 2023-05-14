@@ -292,7 +292,7 @@ a, b, c ............... z
 | ' | Single Quote | " | Double Quotes |
 | : | Colon | ; | Semicolon |
 | ? | Question Mark | ! | Exclamation Sign |
-| & | Ampersand |  |  | Vertical Bar |
+| & | Ampersand |  | Vertical Bar |
 | - | Tilde Sign | ^ | Caret Sign |
 | # | Hash | $ | Dolar |
 | @ | At |  |  |
