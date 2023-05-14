@@ -320,4 +320,4 @@ Some escape sequences are given below....
 | \o | Null Character | 000 | Used for termination of character string |
 | \v | Vertical Tab | 011 | Moves the cursor to next vertical tab position |
 | \t | Horizontal Tab | 009 | Moves the cursor to next horizontal tab position |
-| \\ | Backslash | 092 | Presents a character with backslash (\) |
+| \\\ | Backslash | 092 | Presents a character with backslash (\\) |
