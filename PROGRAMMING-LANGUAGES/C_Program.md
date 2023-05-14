@@ -298,6 +298,8 @@ a, b, c ............... z
 | @ | At |  |  |
 
 + Whitespace Characters
+
 Space Character, Newline Character, Horizontal Tab, Vertical Tab, Form Feed.
 + Other Characters
+
 Alert, Backspace, Carriage Return, Null Character.
