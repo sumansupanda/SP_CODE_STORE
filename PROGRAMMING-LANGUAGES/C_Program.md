@@ -334,7 +334,7 @@ Some trigraph sequences are given below.....
 | ??> | } right brace |
 | ??( | `[` left bracket |
 | ??) | ] right bracket |
-| ??! | `|` vertical bar |
+| ??! | vertical bar |
 | ??/ | \ backslash |
 | ??= | # hash sign |
 | ??- | tilde |
