@@ -281,3 +281,18 @@ a, b, c ............... z
 | Character | Name | Character | Name |
 | :---: | :---: | :---: | :---: |
 | + | Plus Sign | - | Minus Sign (hyphen) |
+| * | Asterisk | % | Percent Sign |
+| \ | Backward Slash | / | Forward Slash |
+| < | Less Than Sign | = | Equal To Sign |
+| > | Greater Than Sign | _ | Underscore |
+| ( | Left Parenthesis | ) | Right Parenthesis |
+| { | Left Braces | } | Right Braces |
+| `[` | Left Bracket | ] | Right Bracket |
+| , | Comma | . | Period |
+| ' | Single Quote | " | Double Quotes |
+| : | Colon | ; | Semicolon |
+| ? | Question Mark | ! | Exclamation Sign |
+| & | Ampersand | | | Vertical Bar |
+| - | Tilde Sign | ^ | Caret Sign |
+| # | Hash | $ | Dolar |
+| @ | At |  |  |
