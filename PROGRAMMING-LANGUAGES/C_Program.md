@@ -330,12 +330,40 @@ Some trigraph sequences are given below.....
 
 | Trigraph Sequence | Symbol |
 | :---: | :---: |
-| ??< | { left brace |
-| ??> | } right brace |
-| ??( | `[` left bracket |
-| ??) | ] right bracket |
-| ??! | vertical bar |
-| ??/ | \ backslash |
-| ??= | # hash sign |
-| ??- | tilde |
-| ??' | ^ caret |
+| ??< | { Left Brace |
+| ??> | } Right Brace |
+| ??( | `[` Left Bracket |
+| ??) | ] Right Bracket |
+| ??! | Vertical Bar |
+| ??/ | \ Backslash |
+| ??= | # Hash Sign |
+| ??- | Tilde |
+| ??' | ^ Caret |
+
+## Delimiters 
+
+Delimiters are used for syntactic purpose in C.
+```
+:   colon               used for label
+;   Semicolon           End Of Statement
+()  Parentheses         Used In Expressions 
+[]  Square Brackets     Used For Arrays
+{}  Curly Braces        Used For Block Of Statements
+#   Hash Preprocessor   Directive
+.   Comma               Variable Delimiter 
+```
+
+## Reserved Word/Keywords
+
+There are certain words that are reserved for doing specific tasks. These words are known as Keywords and they have standard, predefined meaning in C. They are always written in lowercase. These are only 32 keywords available in C whic are given below....
+
+```
+auto        break       case        char
+const       continue    default     do
+double      else        enum        extern
+float       for         goto        if
+int         long        register    return
+short       signed      sizeof      static
+struct      switch      typedef     union
+unsigned    void        volatile    while 
+```
