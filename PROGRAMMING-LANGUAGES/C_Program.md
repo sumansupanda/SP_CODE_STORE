@@ -303,3 +303,9 @@ Space Character, Newline Character, Horizontal Tab, Vertical Tab, Form Feed.
 + Other Characters
 
 Alert, Backspace, Carriage Return, Null Character.
+
+## Escape Sequences/Execution Characters
+
+Some characters such as `newline`, `tab`, `backspace` can not be displayed like other normal characters. C supports the combination of backslash (\) and some characters from the C character for representing these characters in our C programs. These character combinations are known as escape sequences and are represented by two characters. The first character is `"\"` and second character is from the `C character set`.
+
+Some escape sequences are given below....
