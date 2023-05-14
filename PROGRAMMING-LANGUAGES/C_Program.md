@@ -296,3 +296,8 @@ a, b, c ............... z
 | - | Tilde Sign | ^ | Caret Sign |
 | # | Hash | $ | Dolar |
 | @ | At |  |  |
+
++ Whitespace Characters
+Space Character, Newline Character, Horizontal Tab, Vertical Tab, Form Feed.
++ Other Characters
+Alert, Backspace, Carriage Return, Null Character.
