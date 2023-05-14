@@ -321,3 +321,21 @@ Some escape sequences are given below....
 | \v | Vertical Tab | 011 | Moves the cursor to next vertical tab position |
 | \t | Horizontal Tab | 009 | Moves the cursor to next horizontal tab position |
 | \\\ | Backslash | 092 | Presents a character with backslash (\\) |
+
+## Trigraph Characters
+
+Some keyboards may not have all the characters from the C character set. C supports the facility of `trigraph sequence` to print these characters. These trigraph sequences have three characters. First two are `'??'` and third character is any character from C character set.
+
+Some trigraph sequences are given below.....
+
+| Trigraph Sequence | Symbol |
+| :---: | :---: |
+| ??< | { left brace |
+| ??> | } right brace |
+| ??( | `[` left bracket |
+| ??) | ] right bracket |
+| ??! | | vertical bar |
+| ??/ | \ backslash |
+| ??= | # hash sign |
+| ??- | tilde |
+| ??' | ^ caret |
