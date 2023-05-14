@@ -278,6 +278,6 @@ a, b, c ............... z
 ```
 + Graphic Characters
 
-| Character | Name |
-| :---: | :---: |
-| + | Plus Sign |
+| Character | Name | Character | Name |
+| :---: | :---: | :---: | :---: |
+| + | Plus Sign | - | Minus Sign (hyphen) |
