@@ -370,7 +370,7 @@ unsigned    void        volatile    while
 
 ## Identifiers
 
-All the words that we will use in our C programs will be either *keywords* or *identifiers*. Keywords are predefined and can't changed by the user, while identifiers are user defined words and are used to give names to entities like variable, arrays, functions, structures etc.
+All the words that we will use in our C programs will be either `keywords` or `identifiers`. Keywords are predefined and can't changed by the user, while identifiers are user defined words and are used to give names to entities like variable, arrays, functions, structures etc.
 
 Rules for naming identifiers are given below....
 
@@ -380,4 +380,9 @@ Rules for naming identifiers are given below....
 + Since C is case sensitive, the uppercase and lowercase letters are considered different. For example code, Code, CODE are different identifiers.
 + An identifier name may be arbitrarily long.
 
-The identifiers are generally given `meaningful` names. Some examples of valid identifier names...
+The identifiers are generally given meaningful names. Some examples of valid identifier names...
+
+```
+Value    a    net_pay    recl    _data    MARKS
+```
+
