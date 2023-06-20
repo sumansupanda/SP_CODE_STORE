@@ -386,3 +386,22 @@ The identifiers are generally given meaningful names. Some examples of valid ide
 Value    a    net_pay    recl    _data    MARKS
 ```
 
+Some examples of invalid identifier names are....
+
+```
+5bc       First character should be an alphabet or underscore.
+int       int is a keyword.
+rec#      # is a special character.
+avg no    blank space is not permitted
+```
+
+## Data Types
+
+A data type defines a domain of allowed values and the operations that can be performed on those values. Storage representation of different data types is different in memory. These are four fundamental datatypes in C, which are `int`, `char`, `float`, `double`.
+
+*char* is used to store any single character, *int* is used to store integer value, *float* is used for storing single precision floating point number and *double* is used for storing double precision floating point number. We can use type qualifiers with these basic types to get some more types.
+
+There are two types of type qualifiers....
+
++ Size qualifiers - short, long
++ Sign qualifiers - signed, unsigned
